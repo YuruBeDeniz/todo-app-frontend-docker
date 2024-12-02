@@ -1,0 +1,8 @@
+services:
+  todo-frontend:
+    image: todo-app-frontend
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "4200:80"
