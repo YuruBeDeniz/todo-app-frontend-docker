@@ -10,6 +10,9 @@ docker run -d -p 4200:80 todo-app-frontend
 docker stop container_name/id
 docker rm container_name/id
 
-## after adding docket-compose.yaml
+## after adding docker-compose.yaml
 docker compose up -d
 docker compose down
+
+### readings
+https://medium.com/@nadir.inab.dev/dockerizing-your-angular-app-a-quick-guide-00a3ecabe419
